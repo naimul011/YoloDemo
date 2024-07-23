@@ -1,0 +1,13 @@
+train: ./dataset/train/images
+val: ./dataset/valid/images
+test: ./dataset/test/images
+
+nc: 34
+names: ['Axx', 'Bxo', 'Cai', 'Cao', 'Cho', 'Cro', 'Csi', 'Cso', 'Dac', 'Dai', 'Dao', 'Dhi', 'Dkc', 'Dki', 'Dko', 'Dri', 'Dro', 'Dsi', 'Dso', 'Eac', 'Eai', 'Ehc', 'Ekc', 'Eki', 'Esi', 'Fai', 'Fhi', 'Fkc', 'Fko', 'Fso', 'Hax', 'Hkx', 'Hrx', 'Hsx']
+
+roboflow:
+  workspace: fxo
+  project: solar-active-regions
+  version: 4
+  license: MIT
+  url: https://universe.roboflow.com/fxo/solar-active-regions/dataset/4
